@@ -33,7 +33,7 @@ App runs at `http://localhost:3000`.
 On a fresh Ubuntu server (as root):
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/YOUR_USERNAME/devops-starter-kit/main/scripts/setup.sh | bash
+curl -fsSL https://raw.githubusercontent.com/ginoess/devops-starter-kit/main/scripts/setup.sh | bash
 ```
 
 This installs Docker, creates a `deploy` user, configures UFW, fail2ban, SSH hardening, and unattended security upgrades.
@@ -48,7 +48,7 @@ Clone the repo on the server:
 
 ```bash
 su - deploy
-git clone https://github.com/YOUR_USERNAME/devops-starter-kit /opt/app
+git clone https://github.com/ginoess/devops-starter-kit /opt/app
 cd /opt/app && cp .env.example .env
 ```
 
