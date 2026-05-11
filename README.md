@@ -20,7 +20,7 @@ Production-ready Docker stack with automated CI/CD, monitoring, and server harde
 ## Quick start
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/devops-starter-kit
+git clone https://github.com/ginoess/devops-starter-kit
 cd devops-starter-kit
 cp .env.example .env
 make up
