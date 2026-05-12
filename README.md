@@ -126,3 +126,7 @@ push to main
 internet → nginx (80 → 443, SSL) → app:3000 → postgres / redis
                                             └── /metrics → prometheus → grafana
 ```
+
+## Monitoring
+
+<img width="1283" height="609" alt="image" src="https://github.com/user-attachments/assets/7e4f9d10-7cea-4e55-995b-d515820b71b3" />
